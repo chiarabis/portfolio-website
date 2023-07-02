@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chiara Bissolo">
+    <meta name="description" content="portfolio website">
+    <meta name="dc.language" content="ita" scheme="RFC1766">
+    <meta HTTP-EQUIV="keywords" content="sitoweb web sviluppo development frontend curriculum vitae cv portfolio html css javascript">
+    <title>Chiara Bissolo | Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&display=swap" rel="stylesheet">
+    <!--fontawesome icon-->
+    <script src="https://kit.fontawesome.com/99e0a95069.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Chiara Bissolo</h1></a>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="chisono.html" class="nav-link">chi sono</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="contatti.html" class="nav-link">contatti</a>
+        </nav>
+        <i id="hamburger-menu" class="fa-solid fa-bars fa-xl"></i>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="slider">
+            <div class="slider-content fade">
+                <img src="img/counter.png" alt="project">
+                <div class="slider-text">
+                    <h3>Counter</h3>
+                    <button><a href="https://chiarabis.github.io/counter-app/">Vedi</a></button>
+                </div>
+            </div>
+            <div class="slider-content fade">
+                <img src="img/clock.png" alt="project">
+                <div class="slider-text">
+                    <h3>Orologio</h3>
+                    <button><a href="https://chiarabis.github.io/clock/">Vedi</a></button>
+                </div>
+            </div>
+            <div class="slider-content fade">
+                <img src="img/calculator.png" alt="project">
+                <div class="slider-text">
+                    <h3>Calcolatrice</h3>
+                    <button><a href="https://chiarabis.github.io/calculator/">Vedi</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <i class="fa-solid fa-chevron-left fa-2xl" onclick="plusSlides(-1)"></i>
+            <i class="fa-solid fa-chevron-right fa-2xl" onclick="plusSlides(1)"></i>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <a href="https://www.instagram.com/chiarabis_/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/instagram-new--v1.png" alt="instagram"/>
+            </a>
+            <a href="https://github.com/chiarabis">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/github--v1.png" alt="github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/chiara-b-2b7b92178/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/linkedin.png" alt="linkedin"/>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

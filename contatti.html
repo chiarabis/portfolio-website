@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chiara Bissolo">
+    <meta name="description" content="portfolio website">
+    <meta name="dc.language" content="ita" scheme="RFC1766">
+    <meta HTTP-EQUIV="keywords" content="sitoweb web sviluppo development frontend curriculum vitae cv portfolio html css javascript">
+    <title>Chiara Bissolo | Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contatti.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&display=swap" rel="stylesheet">
+    <!--fontawesome icon-->
+    <script src="https://kit.fontawesome.com/99e0a95069.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Chiara Bissolo</h1></a>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="chisono.html" class="nav-link">chi sono</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="contatti.html" class="nav-link">contatti</a>
+        </nav>
+        <i id="hamburger-menu" class="fa-solid fa-bars fa-xl"></i>
+    </header>
+
+    <section class="contacts">
+        <form action="data-contacts.php" method="post">
+            <h2>Modulo di contatto</h2>
+            <div class="data">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Il tuo nome" required>
+            </div>
+            <div class="data">
+                <label for="surname">Cognome</label>
+                <input type="text" id="surname" placeholder="Il tuo cognome">
+            </div>
+            <div class="data">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="La tua email" required>
+            </div>
+            <div class="data">
+                <textarea placeholder="Scrivi qui il tuo messaggio"></textarea>
+            </div>
+            <div class="data">
+                <button type="submit" id="submit-contacts">Invia</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <a href="https://www.instagram.com/chiarabis_/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/instagram-new--v1.png" alt="instagram"/>
+            </a>
+            <a href="https://github.com/chiarabis">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/github--v1.png" alt="github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/chiara-b-2b7b92178/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/linkedin.png" alt="linkedin"/>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

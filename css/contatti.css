@@ -1,0 +1,67 @@
+.contacts{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #DFC6BF;
+}
+form{
+    align-self: center;
+    width: 40%;
+    background-color: #A0B5B6;
+    box-shadow: 3px 3px 5px 0 #7B5B52;
+    margin: 20px;
+}
+form div{margin: 5px 20px;}
+form h2{
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+}
+.data{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.data input, textarea{
+    background-color: transparent;
+    border: 1px solid #7B5B52;
+    color: #7B5B52;
+    width: 100%;
+    margin-top: 6px;
+    padding: 6px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+.data input[type="email"]::placeholder{text-transform: capitalize;}
+.data textarea::placeholder{text-transform: capitalize;}
+.data input[type="email"], textarea{text-transform: none;}
+.data textarea{height: 80px;}
+#submit-contacts{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #7B5B52;
+    border: 2px solid #7B5B52;
+    border-radius: 2px;
+    color: #DFC6BF;
+    margin-bottom: 20px;
+}
+#submit-contacts:hover{
+    background-color: transparent;
+    color: #7B5B52;
+    border: 2px solid #7B5B52;
+}
+#submit-contacts:active{
+    border: 2px solid #DFC6BF;
+    background-color: #DFC6BF;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 926px){
+    .contacts form{font-size: 1.3rem; width: 70%;}
+}
+@media (max-width: 768px){
+    .contacts form{width: 100%;}
+}

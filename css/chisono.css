@@ -1,0 +1,30 @@
+.text-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    background-color: #DFC6BF;
+    font-size: 1.2rem;
+}
+.text-about h2{
+    padding: 50px 0;
+    display: block;
+    font-size: 2.2rem;
+}
+.text-about img{
+    width: 240px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.p-about{
+    line-height: 2.5rem;
+    width: 70%;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.p-about p{
+    margin: 15px;
+    align-items: center;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chiara Bissolo">
+    <meta name="description" content="portfolio website">
+    <meta name="dc.language" content="ita" scheme="RFC1766">
+    <meta HTTP-EQUIV="keywords" content="sitoweb web sviluppo development frontend curriculum vitae cv portfolio html css javascript">
+    <title>Chiara Bissolo | Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&display=swap" rel="stylesheet">
+    <!--fontawesome icon-->
+    <script src="https://kit.fontawesome.com/99e0a95069.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Chiara Bissolo</h1></a>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="chisono.html" class="nav-link">chi sono</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="contatti.html" class="nav-link">contatti</a>
+        </nav>
+        <i id="hamburger-menu" class="fa-solid fa-bars fa-xl"></i>
+    </header>
+
+    <section class="resume-table">
+        <div class="resume-title">
+            <h2>chiara bissolo</h2>
+            <h3>sviluppatrice web</h3>
+        </div>
+        <div class="personal-data">
+            <span><i class="fa-solid fa-location-dot"></i>verona</span>
+            <span><i class="fa-solid fa-cake-candles"></i>10/01/1992</span>
+        </div>
+        <div class="skills" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+            <h4><i class="fa-solid fa-diagram-project"></i>competenze</h4>
+            <ul>
+                <li>html e css</li>
+                <li>linguaggio javascript - in corso</li>
+                <li>canva</li>
+                <li>revisione deti testi</li>
+                <li>insegnamento in laboratori didattici (museo)</li>
+                <li>software clavis (catalogazione libraria)</li>
+                <li>precisione e organizzazione</li>
+            </ul>
+        </div>
+        <div class="experience" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+            <h4><i class="fa-solid fa-briefcase"></i>esperienza</h4>
+            <ul>
+                <li>bibliotecaria (catalogo)</li>
+                <li>assistente museale</li>
+                <li>correttrice di bozze di articoli</li>
+                <li>cameriera</li>
+            </ul>
+        </div>
+        <div class="education" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+            <h4><i class="fa-solid fa-graduation-cap"></i>Istruzione</h4>
+            <ul>
+                <li>laurea in conservazione dei beni culturali</li>
+                <li>master in digital humanities</li>
+                <li>corsi online su udemy e studio autonomo</li>
+                <li>corso in front-end development</li>
+            </ul>
+        </div>
+        <div class="languages" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+            <h4><i class="fa-solid fa-comments"></i>lingue</h4>
+            <div class="flags">
+                <div class="flag-container">
+                    <div id="popOver1" class="popOver">
+                        <p>Italiano - madrelingua</p>
+                    </div>
+                    <img src="img/italy-96.png" alt="italy">
+                </div>
+                <div class="flag-container">
+                    <div id="popOver2" class="popOver">
+                        <p>Inglese - B2</p>
+                    </div>
+                    <img src="img/uk-96.png" alt="uk"/>
+                </div>
+                <div class="flag-container">
+                    <div id="popOver3" class="popOver">
+                        <p>Portoghese - B1</p>
+                    </div>
+                    <img src="img/brazil-96.png" alt="brazil">
+                </div>
+            </div>
+        </div>
+        <div class="interests" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+            <h4><i class="fa-solid fa-star"></i>interests</h4>
+            <p>arte • miti e leggende • film thriller/horror • amante dei gatti •
+                candele e lavori artigianali • cibo (mangiare e cucinare)</p>
+        </div>
+        <button class="portfolio-button-cv"><a href="portfolio.html">Portfolio</a></button>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <a href="https://www.instagram.com/chiarabis_/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/instagram-new--v1.png" alt="instagram"/>
+            </a>
+            <a href="https://github.com/chiarabis">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/github--v1.png" alt="github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/chiara-b-2b7b92178/">
+                <img src="https://img.icons8.com/ios/50/dfc6bf/linkedin.png" alt="linkedin"/>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.portfolio-section{box-sizing: border-box;}
+.slider {
+    width: 100%;
+    text-align: center;
+    background-color: #DFC6BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow-x: hidden;
+}
+.slider-content{
+    display: none;
+}
+.slider-content img{
+    background-size: cover;
+    height: 50vh;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.slider-text{
+    color: #7B5B52;
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.slider-text button{
+    color: #7b5b52;
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.slider-text button:hover{background-color: #7B5B52;}
+.slider-text a:hover{color: #fff;}
+.slider-arrows{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider-arrows .fa-solid{
+    cursor: pointer;
+    color: #7b5b52;
+    opacity: 0.5;
+    margin: 0 20%;
+    transform: translateY(-100px);
+    transition: 0.6s ease;
+}
+.slider-arrows .fa-solid:hover{opacity: 1;}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.5}
+    to {opacity: 1}
+}

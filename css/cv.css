@@ -1,0 +1,138 @@
+/*title*/
+.resume-table{
+    display: grid;
+    background-color: #DFC6BF;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 3px 3px 5px 0 #7B5B52;
+    margin: 0px;
+    text-transform: capitalize;
+}
+.resume-table div:not(.flag-container){margin: 10px 20px;}
+.resume-table div i{margin: 15px;}
+.resume-table div ul{list-style-type: none;}
+.resume-table div h4{
+    color: #7B5B52;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.resume-table div h4 ~ ul, p{
+    margin: 20px;
+    margin-top: 0;
+}
+.resume-title{
+    text-align: center;
+    box-shadow: 0px 10px 6px -3px rgba(0,0,0,0.1);
+    padding: 15px;
+    color: #2a2a2a;
+    grid-column: span 3;
+}
+.resume-title h2{margin-bottom: 20px;}
+.resume-title h3{margin-bottom: 20px;}
+
+/*dati personali*/
+.personal-data{
+    color: #2a2a2a;
+    text-align: center;
+    align-self: center;
+    justify-self: space-around;
+    grid-column: span 3;
+}
+.personal-data span{margin: 30px;}
+
+/*competenze, esperienza, istruzione*/
+.skills, .experience, .education, .languages, .interests{
+    border-radius: 2px;
+    transition: background-color 0.5s;
+}
+.skills ul li, .experience ul li, .education ul li{margin-bottom: 10px;}
+
+/*lingue*/
+.languages{display: grid;}
+.flags{
+    align-self: center;
+    justify-self: space-around;
+}
+.flag-container{
+    display: inline-block;
+    position: relative;
+}
+.flag-container img{
+    width: 50px;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.flag-container img:hover{transform: scale(1.3,1.3);}
+.popOver{
+    display: none;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #DFC6BF;
+    width: max-content;
+    padding: 0;
+}
+.popOver p{margin: 5px; font-size: 70%;}
+.show{display: block;}
+
+/*interessi*/
+.interests{grid-column: span 2;}
+
+/*bottone portfolio*/
+.portfolio-button-cv{
+    padding: 30px;
+    cursor: pointer;
+    background-color: #A0B5B6;
+    grid-column: span 3;
+}
+.portfolio-button-cv a{
+    color: #2a2a2a; 
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.portfolio-button-cv a:hover{
+    text-decoration: underline #2a2a2a;
+    text-underline-offset: 2px;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 1248px){
+    .flag-container img{margin: 5px;}
+}
+@media (max-width: 926px){
+    html{font-size: 80%;}
+    .resume-table{font-size: 1.1rem; }
+}
+@media (max-width: 830px){
+    html{font-size: 70%;}
+}
+@media (max-width: 768px){
+    .resume-table{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-content: center;
+        font-size: 1.2rem;
+    }
+    .resume-title, .personal-data, .portfolio-button-cv{grid-column: span 2;}
+    .education{grid-row: span 2;}
+    .languages{grid-row: 4; grid-column: 2;}
+    .interests{grid-row: 5; grid-column: 2;}
+}
+@media (max-width: 480px){
+    html{font-size: 70%;}
+    .personal-data span{margin: 10px;}
+    .flag-container img{width: 40px;}
+    .p-about{font-size: 1.3rem; width: 85%;}
+}
+@media (max-width: 360px){
+    html{font-size: 60%;}
+    .flag-container img{width: 50px;}
+    .resume-table{display: flex; flex-direction: column; text-align: center;}
+    .portfolio-button-cv{width: 100%;}
+    .popOver{font-size: 15px;}
+}
+@media (max-width: 280px){
+    .personal-data span{margin: 5px;}
+    .flag-container img{margin: 5px;}
+}
