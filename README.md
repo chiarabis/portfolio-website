@@ -27,4 +27,4 @@ Anche il contenuto delle varie sezioni si adatta per una migliore leggibilità e
 ![Screenshot (43)](https://github.com/chiarabis/portfolio-website/assets/124071052/bc432f6b-bc43-46f7-9935-5fd273bd132a)
 
 ### Link al progetto
-
+https://chiarabis.github.io/portfolio-website/
