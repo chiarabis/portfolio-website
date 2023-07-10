@@ -13,7 +13,7 @@
     margin-top: 100px;
     margin-left: 200px;
 }
-.title-home span{
+.title-home h2{
     display: block;
     font-size: 3.2rem;
     padding: 0;
@@ -86,16 +86,15 @@
 @media (max-width: 1420px){
     .title-home, .portfolio-button{margin-left: 150px;}
     .img-profile{margin-right: 150px;}
-}
-@media (max-width: 1260px){
+    .title-home h2{font-size: 2.8rem;}
     .img-profile{
         padding: 30px;
         width: 430px;
+        margin-right: 150px;
     }
     .img-profile img{width: 200px;}
 }
 @media (max-width: 1248px){
-    .title-home span{font-size: 2.8rem;}
     .title-home, .portfolio-button{margin-left: 120px;}
     .img-profile{
         width: 400px;
@@ -105,7 +104,7 @@
     .img-profile ul li{font-size: 1.1rem;}
 }
 @media (max-width: 1035px){
-    .title-home span{font-size: 2.5rem;}
+    .title-home h2{font-size: 2.3rem;}
     .img-profile{
         width: 300px;
         text-align: center;
@@ -169,7 +168,7 @@
     .portfolio-button{margin: 0;}
 }
 @media (max-width: 480px){
-    .img-home{height: 110vh}
+    .img-home{height: 110vh;}
     .title-home{text-align: center; margin-top: 0px;}
     .img-profile{
         padding: 20px;
