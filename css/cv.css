@@ -71,7 +71,7 @@
     width: max-content;
     padding: 0;
 }
-#popOver1{transform: translate(-5px, -33px);} /*-40, -10,-55*/
+#popOver1{transform: translate(-5px, -33px);}
 #popOver2{transform: translate(-25px, -33px);}
 #popOver3{transform: translate(-40px, -33px);}
 .popOver::after{
@@ -116,7 +116,7 @@
 @media (max-width: 1248px){
     .flag-container img{margin: 5px;}
     .popOver p{font-size: 0.7rem;}
-    #popOver1{transform: translate(-20px, -36px);} /*-40, -10,-55*/
+    #popOver1{transform: translate(-20px, -36px);}
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-28px, -36px);}
 }
@@ -124,7 +124,7 @@
     html{font-size: 80%;}
     .resume-table{font-size: 1.1rem; }
     .popOver p{font-size: 0.8rem;}
-    #popOver1{transform: translate(-25px, -36px);} /*-40, -10,-55*/
+    #popOver1{transform: translate(-25px, -36px);}
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-20px, -36px);}
     .flag-container img{
@@ -149,7 +149,7 @@
     .resume-title, .personal-data, .portfolio-button-cv{grid-column: span 2;}
     .education{grid-row: span 2;}
     .languages{grid-row: 4; grid-column: 2;}
-    #popOver1{transform: translate(-15px, -36px);} /*-40, -10,-55*/
+    #popOver1{transform: translate(-15px, -36px);}
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-36px, -36px);}
     .interests{grid-row: 6;}
@@ -160,7 +160,7 @@
         flex-direction: column;
         padding: 0;
     }
-    #popOver1{transform: translate(50px, 5px);} /*-40, -10,-55*/
+    #popOver1{transform: translate(50px, 5px);}
     #popOver2{transform: translate(50px, 5px);}
     #popOver3{transform: translate(50px, 5px);}
     .popOver::after{
