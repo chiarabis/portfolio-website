@@ -6,12 +6,12 @@
     width: 100vw;
     height: fit-content;
     background-color: #DFC6BF;
-    font-size: 1.2rem;
 }
 .text-about h2{
     padding: 50px 0;
     display: block;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
+    color: #2a2a2a;
 }
 .text-about img{
     width: 240px;
@@ -23,8 +23,19 @@
     width: 70%;
     align-self: center;
     margin-bottom: 30px;
+    font-size: 1.2rem;
 }
 .p-about p{
     margin: 15px;
     align-items: center;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 926px){
+    .p-about{width: 80%;}
+}
+@media (max-width: 830px){
+    .p-about p{font-size: 1.4rem;}
 }
