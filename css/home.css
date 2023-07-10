@@ -169,7 +169,7 @@
     .portfolio-button{margin: 0;}
 }
 @media (max-width: 480px){
-    .img-home{height: 100vh}
+    .img-home{height: 110vh}
     .title-home{text-align: center; margin-top: 0px;}
     .img-profile{
         padding: 20px;
