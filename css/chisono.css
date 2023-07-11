@@ -10,7 +10,7 @@
 .text-about h2{
     padding: 50px 0;
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #2a2a2a;
 }
 .text-about img{
@@ -38,4 +38,7 @@
 }
 @media (max-width: 830px){
     .p-about p{font-size: 1.4rem;}
+}
+@media (max-width: 480px){
+    .text-about img{width: 200px;}
 }

@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     box-shadow: 3px 3px 5px 0 #7B5B52;
     margin: 0px;
+    /*width: 100%;*/
     text-transform: capitalize;
     overflow-x: hidden;
 }
@@ -55,7 +56,14 @@
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
+    /*display: grid;
+    align-items: center;
+    align-self: center;*/
 }
+/*.flag-container{
+    display: inline-block;
+    position: relative;
+}*/
 .flag-container img{
     width: 60px;
     margin: 15px;
@@ -71,7 +79,7 @@
     width: max-content;
     padding: 0;
 }
-#popOver1{transform: translate(-5px, -33px);}
+#popOver1{transform: translate(-5px, -33px);} /*-40, -10,-55*/
 #popOver2{transform: translate(-25px, -33px);}
 #popOver3{transform: translate(-40px, -33px);}
 .popOver::after{
@@ -116,7 +124,7 @@
 @media (max-width: 1248px){
     .flag-container img{margin: 5px;}
     .popOver p{font-size: 0.7rem;}
-    #popOver1{transform: translate(-20px, -36px);}
+    #popOver1{transform: translate(-20px, -36px);} /*-40, -10,-55*/
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-28px, -36px);}
 }
@@ -124,7 +132,7 @@
     html{font-size: 80%;}
     .resume-table{font-size: 1.1rem; }
     .popOver p{font-size: 0.8rem;}
-    #popOver1{transform: translate(-25px, -36px);}
+    #popOver1{transform: translate(-25px, -36px);} /*-40, -10,-55*/
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-20px, -36px);}
     .flag-container img{
@@ -149,10 +157,10 @@
     .resume-title, .personal-data, .portfolio-button-cv{grid-column: span 2;}
     .education{grid-row: span 2;}
     .languages{grid-row: 4; grid-column: 2;}
-    #popOver1{transform: translate(-15px, -36px);}
+    #popOver1{transform: translate(-15px, -36px);} /*-40, -10,-55*/
     #popOver2{transform: translate(-36px, -36px);}
     #popOver3{transform: translate(-36px, -36px);}
-    .interests{grid-row: 6;}
+    .interests{/*grid-row: 5; grid-column: 2;*/grid-row: 6;}
 }
 @media (max-width: 630px){
     .flags{
@@ -160,7 +168,7 @@
         flex-direction: column;
         padding: 0;
     }
-    #popOver1{transform: translate(50px, 5px);}
+    #popOver1{transform: translate(50px, 5px);} /*-40, -10,-55*/
     #popOver2{transform: translate(50px, 5px);}
     #popOver3{transform: translate(50px, 5px);}
     .popOver::after{
@@ -172,6 +180,12 @@
         border-right: 5px solid #fff;
         border-left: none;
         border-bottom: 5px solid transparent;
+
+        /*border-width: 5px;
+        border-color: #fff transparent transparent transparent;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;*/
     }
 }
 @media (max-width: 530px){
@@ -190,6 +204,9 @@
 @media (max-width: 360px){
     html{font-size: 60%;}
     .resume-table{
+        /*display: flex; 
+        flex-direction: column; 
+        text-align: center;*/
         display: block;
         text-align: center;
         overflow-x: hidden;
@@ -225,6 +242,7 @@
     #popOver1{transform: translate(-15px, 55px);}
     #popOver2{transform: translate(-30px, 55px);}
     #popOver2::after{transform: translateX(0px);}
+    /*.flag-container img{margin: 5px;}*/
 }
 
 /*ipad air*/
