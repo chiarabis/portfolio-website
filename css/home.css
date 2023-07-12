@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     color: #2a2a2a;
 }
@@ -37,8 +37,8 @@
     border-radius: 3px 30px;
     width: 500px;
     float: right;
-    margin-top: 80px;
     margin-right: 200px;
+    margin-top: 80px;
 }
 .img-profile img{
     width: 220px;
@@ -94,14 +94,6 @@
     }
     .img-profile img{width: 200px;}
 }
-/*@media (max-width: 1260px){
-    .title-home h2{font-size: 2.6rem;}
-    .img-profile{
-        padding: 30px;
-        width: 430px;
-    }
-    .img-profile img{width: 200px;}
-}*/
 @media (max-width: 1248px){
     .title-home, .portfolio-button{margin-left: 120px;}
     .img-profile{
@@ -122,7 +114,6 @@
 }
 @media (max-width: 926px){
     html{font-size: 80%;}
-    .img-home{height: 90vh;}
     .img-profile{padding: 20px;}
     .img-profile ul li{font-size: 1.3rem;}
 }
@@ -134,7 +125,6 @@
         flex-direction: column; 
         align-items: center;
         justify-content: center;
-        height: 100vh;
     }
     .title-home{
         padding: 0;
@@ -158,7 +148,7 @@
         display: flex; 
         flex-direction: column; 
         align-items: center;
-        height: 100vh;
+        height: 110vh;
     }
     .title-home{
         padding: 0;
@@ -177,7 +167,6 @@
     .portfolio-button{margin: 0;}
 }
 @media (max-width: 480px){
-    .img-home{height: 110vh;}
     .title-home{text-align: center; margin-top: 0px;}
     .img-profile{
         padding: 20px;
